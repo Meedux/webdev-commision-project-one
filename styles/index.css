@@ -1,0 +1,85 @@
+/*
+	Add Fonts Later
+*/
+
+body,
+html {
+	width: 100%;
+	height: 100%;
+	margin: auto 0;
+	background: url("https://picsum.photos/id/1022/6000/3376");
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	
+}
+
+.navbar {
+	margin-bottom: 30px;
+}
+
+ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 0;
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+	transition: 300ms;
+}
+
+a:hover {
+	padding: 10px;
+	background-color: white;
+	border-radius: 20px;
+	color: black;
+}
+
+li {
+	padding: 20px;
+	color: white;
+	list-style: none;
+}
+
+.our-gallery {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	font-size: 15px;
+	margin: 0 50px;
+}
+
+.our-gallery > p {
+	text-align: center;
+}
+
+.browse {
+	color: white;
+	border: 1px solid white;
+	padding: 10px;
+	border-radius: 20px;
+	transition: 300ms;
+}
+
+.browse:hover {
+	background-color: white;
+	color: black;
+
+}
+
+
+
+/*.container{
+	height: 5em;
+	background-color: #713E5A;
+}*/

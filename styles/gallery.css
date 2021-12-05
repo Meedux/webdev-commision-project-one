@@ -1,0 +1,86 @@
+body {
+	background-color: #131313;
+	margin: auto 0;
+}
+
+h1 {
+	margin: auto 0;
+}
+
+header {
+	height: 15em;
+	width: 100%;
+	text-align: center;
+	color: white;
+	background-image: url("https://picsum.photos/1000");
+	background-position: center;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	color: black;
+
+	filter: blur(8px);
+	-webkit-filter: blur(8px);
+}
+
+h1 {
+	position: absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+	width: 80%;
+	padding:20px;
+	text-align: center;
+}
+
+img {
+	border-radius: 10px;
+	transition: 300ms;
+}
+
+img:hover {
+	height: 15em;
+	width: 15em;
+	/*border-radius: 10px;*/
+}
+
+.collections {
+	margin: 2em;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	justify-items: center;
+	grid-auto-flow: row;
+	grid-gap: 10px;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color: white;
+}
+
+.home {
+	text-decoration: none;
+	/*color: white;*/
+	padding: 10px;
+	background-color: white;
+	border-radius: 20px;
+	color: black;
+	transition: 300ms;
+}
+
+.home:hover {
+	color: white;
+	background-color: black;
+	border: 1px solid white;
+}
